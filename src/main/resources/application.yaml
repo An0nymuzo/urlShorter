@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: ${URLDATABASE}
+    username: ${USERNAME}
+    password: ${PASSWORD}
+    driverClassName: ${DRIVERCLASSNAME}
+  jpa:
+    spring.jpa.database-platform: ${DATABASE_PLATEFORM}
+    hibernate.ddl-auto: update
