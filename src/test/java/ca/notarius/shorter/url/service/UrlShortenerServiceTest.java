@@ -92,10 +92,4 @@ public class UrlShortenerServiceTest {
 		assertThrows(Exception.class, () -> {service.extractExistingShorterUrl("http://www.baseurl.com");});
 	}
 
-	@Test
-	void toto()
-	{
-		int i=0;
-		System.err.println(i++);
-	}
 }
